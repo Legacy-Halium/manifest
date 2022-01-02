@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote name="leg"
+    fetch="https://github.com/Legacy-Halium/"
+    revision="halium-9.0" />
+
+    <project path="device/samsung/greatlte" name="android_device_samsung_greatlte" remote="mun" />
+    <project path="device/samsung/universal8895-common" name="android_device_samsung_universal8895-common" remote="mun" />
+    <project path="kernel/samsung/universal8895" name="android_kernel_samsung_universal8895" remote="mun" />
+    <project path="vendor/samsung/greatlte" name="android_vendor_samsung_greatlte" remote="mun" />
+    <project path="vendor/samsung/universal8895-common" name="android_device_samsung_universal8895-common" remote="mun" />
+</manifest>
