@@ -1,8 +1,8 @@
     "greatlte")
         sed -i \
-            -e 's /dev/block/platform/11120000.ufs/by-name/SYSTEM sda15 ' \
-            -e 's /dev/block/platform/11120000.ufs/by-name/CACHE  sda16 ' \
-            -e 's /dev/block/platform/11120000.ufs/by-name/USERDATA sda21 ' \
-            -e 's /dev/block/platform/11120000.ufs/by-name/EFS sda3 ' \
+            -e 's block/platform/11120000.ufs/by-name/SYSTEM sda15 ' \
+            -e 's block/platform/11120000.ufs/by-name/CACHE  sda16 ' \
+            -e 's block/platform/11120000.ufs/by-name/USERDATA sda21 ' \
+            -e 's block/platform/11120000.ufs/by-name/EFS sda3 ' \
         "$@"
     ;;
