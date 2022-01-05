@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="leg"
+<remote name="mun"
     fetch="https://github.com/Legacy-Halium/"
     revision="halium-9.0" />
 
